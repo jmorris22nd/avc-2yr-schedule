@@ -1,0 +1,12 @@
+    - name: avc-2yr-schedule
+      uses: docker/login-action@v3
+      with:
+        registry: ghcr.io
+        username: $jmorris22nd
+        password: $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
+
+    - name: jmorris22nd/avc
+      uses: docker/login-action@v3
+      with:
+        username: $jmorris22nd
+        password: $dckr_pat_P-UFf5yVhsYZkQ_jt8k9w7JN0gI
